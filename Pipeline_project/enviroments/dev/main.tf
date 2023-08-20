@@ -48,7 +48,7 @@ module "new_ec2_instance" {
 
 module "new_s3_bucket" {
   source = "../../modules/tf_state_module"
-  
+
 
   aws_s3_bucket = var.aws_s3_bucket
 

@@ -14,7 +14,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY_ID }}
     defaults:
         run:
-          working-directory: /Pipeline_project/envrioments/dev
+          working-directory: cd terraform-aws-infrastructure/Pipeline_project/enviroments/dev
 
     steps:
       - name: Checkout

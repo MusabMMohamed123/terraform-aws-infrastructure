@@ -1,1 +1,0 @@
-vpc_tag = "TF_VARS"

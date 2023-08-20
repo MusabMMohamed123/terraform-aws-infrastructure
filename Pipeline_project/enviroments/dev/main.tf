@@ -46,10 +46,3 @@ module "new_ec2_instance" {
   SUBNET_ID           = module.new_vpc.subnet_id
 }
 
-module "new_s3_bucket" {
-  source = "../../modules/tf_state_module"
-  
-
-  aws_s3_bucket = var.aws_s3_bucket
-
-}

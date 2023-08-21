@@ -45,7 +45,7 @@ This repository contains Terraform configurations and GitHub Actions workflow to
 
 5. Create an HTML file for your website:
    sh
-   echo "<html><body><h1>Hello from EC2!</h1></body></html>" | sudo tee /var/www/html/index.html
+   echo "<html><body><h1>hello world!</h1></body></html>" | sudo tee /var/www/html/index.html
    
 
 6. Open a web browser and enter the EC2 instance's public IP address to see your webpage.
